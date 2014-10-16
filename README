@@ -1,0 +1,64 @@
+
+This program is created to solve a puzzle.
+You can check a task.png file to see how it is visualized.
+lets assume that we have 12 squares placed in next order.
+
+
+ 01
+2345
+6789
+ ab
+
+A single square has got four edges. Each square stores a positive integer.
+
+There are two rules
+1)The sum of all edges  in every green square must be  equal to 10.
+2)Moreover, The sum of all edges  in every yellow square must be  smaller than 10.
+
+The program is supplied with file like resources at the beginning.
+Every line represents a square. Each integer represents a square edge's integer.
+
+The input file doesn't have to follow the rules.
+
+The program will swap the squares and find all permutations that answer the rules.
+
+
+
+-------
+
+
+There are many ways to start an app.
+The simplest would be to import this project into intellij idea.
+Another way would be to check build directory.
+
+It is also possible to use latest version of gradle to execute different tasks.
+If you are an eclipse user consider eclipse plugin for gradle.
+
+You can also use gradle application plugin to run program without arguments.
+
+--------------------
+tested on machine with next config:
+
+Java(TM) SE Runtime Environment (build 1.7.0_67-b01)
+Java HotSpot(TM) 64-Bit Server VM (build 24.65-b04, mixed mode)
+
+Scala code runner version 2.10.3 -- Copyright 2002-2013, LAMP/EPFL
+
+
+------------------------------------------------------------
+Gradle 2.0
+------------------------------------------------------------
+
+Build time:   2014-07-01 07:45:34 UTC
+Build number: none
+Revision:     b6ead6fa452dfdadec484059191eb641d817226c
+
+Groovy:       2.3.3
+Ant:          Apache Ant(TM) version 1.9.3 compiled on December 23 2013
+JVM:          1.7.0_40 (Oracle Corporation 24.0-b56)
+OS:           Linux 3.8.0-44-generic amd64 (Ubuntu 12.04)
+
+
+------------------------
+
+
